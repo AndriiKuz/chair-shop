@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/accordion.css" />
+    <link rel="stylesheet" href="css/pagination.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/queris.css" />
+
+    <title>Lisbon Chair Shop</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.svg" />
+  </head>
+
+  <body>
+    <div id="backdrop"></div>
+    <div>
+      <div class="container">
+        <header>
+          <div class="header-text-box">
+            <h1>We design and build better chairs, for a better life</h1>
+            <p class="header-text">
+              In a small shop in the heart of Lisbon, we spend our days
+              relentlessly perfecting the chair. The result is a perfect blend
+              of beauty and comfort, that will have a lasting impact on your
+              health.
+            </p>
+            <a class="btn btn--big" href="#card-section">Shop chairs</a>
+          </div>
+          <img src="img/hero.jpg" alt="Photo" />
+        </header>
+
+        <section>
+          <h2>What makes our chairs special</h2>
+          <div class="what grid-3-cols">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="features-icon"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                />
+              </svg>
+              <p class="features-title">
+                <strong>Science meets design</strong>
+              </p>
+              <p class="features-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+                similique adipisci praesentium.
+              </p>
+            </div>
+
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="features-icon"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p class="features-title">
+                <strong>Maximal comfort</strong>
+              </p>
+              <p class="features-text">
+                Reprehenderit optio placeat quasi excepturi architecto,
+                explicabo facilis perspiciatis error maxime magnam.
+              </p>
+            </div>
+
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="features-icon"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+              <p class="features-title">
+                <strong>Ethical and sustainable</strong>
+              </p>
+              <p class="features-text">
+                Deleniti recusandae quidem nesciunt, eos dolorum iure, quaerat
+                omnis est laudantium voluptatem voluptas!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="carousel">
+          <div class="carousel-content"></div>
+          <button class="btn-carousel btn--left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-carousel btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <button class="btn-carousel btn--right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-carousel btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+          <div class="dots"></div>
+        </div>
+
+        <section class="delivery">
+          <h2>FAQ</h2>
+          <div class="accordion"></div>
+        </section>
+
+        <section id="card-section" class="cards">
+          <h2>Our bestselling chairs</h2>
+          <div class="card-container grid-3-cols"></div>
+        </section>
+
+        <div class="pagination">
+          <button class="btn-pagination btn-pagination--left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <p class="pagination-dots">...</p>
+          <button class="page-number quantity-pages">23</button>
+
+          <button class="btn-pagination btn-pagination--right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="cart">
+          <button class="btn-cart">
+            <span class="product-in-cart empty">1</span>
+            <ion-icon class="cart-icon" name="cart-outline"></ion-icon>
+          </button>
+          <a class="btn-cart scroll-up-btn" href="#">
+            <ion-icon class="cart-icon" name="chevron-up-outline"></ion-icon>
+          </a>
+        </div>
+
+        <footer class="year"></footer>
+
+        <div class="modal card" id="add-modal">
+          <h2 class="modal__title">Cart</h2>
+          <button class="close-btn" id="close-cart-btn">
+            <ion-icon class="close-icon" name="close-outline"></ion-icon>
+          </button>
+          <div class="scroll-box"></div>
+
+          <div class="total">
+            <span>Total:</span>
+            <span class="price">0€</span>
+          </div>
+
+          <div class="modal__actions visible">
+            <button class="btn btn--small btn--danger btn--passive clear-cart">
+              clear cart
+            </button>
+            <button class="btn btn--small btn--passive btn--success to-order">
+              to order
+            </button>
+          </div>
+        </div>
+
+        <div class="modal card" id="contact-form">
+          <h2 class="modal__title">Ordering</h2>
+          <button class="close-btn" id="close-odering-btn">
+            <ion-icon class="close-icon" name="close-outline"></ion-icon>
+          </button>
+          <div class="form-container">
+            <form class="cta-form" name="contact">
+              <div>
+                <label for="full-name">Full Name:</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Andrii Kuz"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address:</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="andry.kuz@gmail.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="phone">Phone:</label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="+38-XXX-XXX-XX-XX"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">FaceBook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+            </form>
+
+            <div class="form-btn-container">
+              <button
+                class="btn btn--small btn--form btn--form-back-to-cart"
+                type="button"
+              >
+                Back to cart
+              </button>
+              <button
+                class="btn btn--small btn--form btn--form-confirm"
+                type="submit"
+              >
+                Confirm order
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal card" id="delete-modal">
+          <h2 class="modal__title">Are you sure?</h2>
+          <p class="modal__content">Do you want clear a cart?</p>
+          <div class="modal__actions">
+            <button class="btn btn--small btn--danger yes-btn">Yes</button>
+            <button class="btn btn--small btn--passive cancel-btn">
+              Cancel
+            </button>
+          </div>
+        </div>
+
+        <div class="modal card" id="success-modal">
+          <h2 class="modal__title">Success</h2>
+          <p class="modal__content">
+            Thank you for your purchase. Our manager will call you soon.
+          </p>
+        </div>
+
+        <div class="modal card" id="added-to-cart">
+          <h2 class="modal__title">Cart</h2>
+          <p class="modal__content">You have added this product to cart.</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script/carousel.js"></script>
+    <script defer src="script/accordion.js"></script>
+    <script defer src="script/cards.js"></script>
+    <script defer src="script/pagination.js"></script>
+    <script defer src="script/cart.js"></script>
+    <script defer src="script/modal.js"></script>
+    <script defer src="script/footer.js"></script>
+  </body>
+</html>

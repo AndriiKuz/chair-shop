@@ -1,0 +1,30 @@
+[
+  {
+    "image": "img/rowling.jpg",
+    "imageAlt": "J.K. Rowling",
+    "testimonialText": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all - in which case, you fail by default.",
+    "testimonialAuthor": "J.K. Rowling",
+    "testimonialJob": "British writer"
+  },
+  {
+    "image": "img/ilon.png",
+    "imageAlt": "Elon Musk",
+    "testimonialText": "People work better when they know what the goal is and why. It is important that people look forward to coming to work in the morning and enjoy working.",
+    "testimonialAuthor": "Elon Musk",
+    "testimonialJob": "Founder of the Tesla company"
+  },
+  {
+    "image": "img/brawn.jpg",
+    "imageAlt": "Dan Brawn",
+    "testimonialText": "Imagine how different a world might be if more leaders took time to ponder the finality of death before racing off to war.",
+    "testimonialAuthor": "Dan Brawn",
+    "testimonialJob": "American writter"
+  },
+  {
+    "image": "img/gates.jpg",
+    "imageAlt": "Bill Gates",
+    "testimonialText": "The belief that the world is getting worse, that we can’t solve extreme poverty and disease, isn’t just mistaken. It’s harmful.",
+    "testimonialAuthor": "Bill Gates",
+    "testimonialJob": "Founder of Microsoft Corporation"
+  }
+]

@@ -1,0 +1,72 @@
+.accordion {
+  min-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-top: 4px solid #ced4da;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 12px;
+  align-items: center;
+}
+.number,
+.text {
+  font-size: 24px;
+  font-weight: 500;
+}
+.number {
+  color: #ced4da;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #ced4da;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.hidden-box {
+  grid-column: 2;
+
+  overflow: hidden; /* Hide the element content, while height = 0 */
+  height: 0;
+  opacity: 0;
+  transition: height 0ms 400ms, opacity 400ms 0ms;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hidden-box ul {
+  color: #868e96;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.open {
+  border-top: 4px solid #087f5b;
+}
+.open .hidden-box {
+  height: auto;
+  opacity: 1;
+  transition: height 0ms 0ms, opacity 600ms 0ms;
+}
+.open .number,
+.open .text,
+.open .icon {
+  color: #087f5b;
+  stroke: #087f5b;
+  transition: all 0.5s;
+}
+.open .icon {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}

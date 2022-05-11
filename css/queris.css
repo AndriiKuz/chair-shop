@@ -1,0 +1,187 @@
+@media (max-width: 59em) {
+  html {
+    font-size: 60%;
+  }
+
+  header {
+    column-gap: 32px;
+  }
+
+  header img {
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 840px;
+    padding: 0 10px;
+  }
+
+  .carousel {
+    max-width: 800px;
+  }
+
+  .carousel-img {
+    transform: scale(2);
+    height: 15rem;
+    width: 15rem;
+    margin-left: 18px;
+  }
+
+  .hidden-box p {
+    font-size: 150%;
+  }
+
+  .hidden-box ul {
+    font-size: 150%;
+  }
+
+  .chair-details span {
+    font-size: 175%;
+  }
+
+  .chair img {
+    height: 150px;
+  }
+
+  .chair-box {
+    padding: 18px;
+  }
+
+  .btn-cart {
+    height: 64px;
+    width: 64px;
+  }
+
+  .cart-icon {
+    height: 48px;
+    width: 48px;
+  }
+
+  .product-in-cart {
+    position: absolute;
+    top: 32%;
+    left: 43%;
+  }
+
+  .modal {
+    width: 90%;
+    min-width: 250px;
+    max-height: 360px;
+  }
+
+  .scroll-box {
+    max-height: 140px;
+  }
+
+  .modal__title {
+    font-size: 24px !important;
+  }
+
+  .close-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .close-btn {
+    top: 8px;
+  }
+
+  .trash-icon {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+  }
+
+  .grid-3-cols {
+    column-gap: 24px;
+  }
+
+  .btn--form-back-to-cart {
+    margin: 16px 0 0 0;
+    padding: 10px 32px;
+  }
+
+  .btn--form-confirm {
+    margin: 16px 0 0 0;
+    padding: 10px 32px;
+  }
+}
+
+@media (max-width: 34em) {
+  .container {
+    align-items: center;
+  }
+
+  .chair img {
+    height: 215px;
+  }
+
+  .chair-price {
+    font-size: 24px;
+  }
+
+  .chair-details span {
+    font-size: 190%;
+  }
+
+  .container {
+    width: 360px;
+  }
+
+  header {
+    column-gap: 32px;
+    grid-template-columns: 1fr;
+  }
+
+  header img {
+    margin-top: 4.8rem;
+    width: 35em;
+    height: 35em;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .what.grid-3-cols {
+    gap: 50px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .item {
+    column-gap: 12px;
+    row-gap: 10px;
+  }
+
+  .cta-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.4rem;
+    margin: 2rem;
+  }
+
+  .modal {
+    max-height: 560px;
+  }
+
+  .scroll-box {
+    max-height: 360px;
+  }
+
+  .form-btn-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .btn--form-confirm {
+    margin: 0;
+  }
+}

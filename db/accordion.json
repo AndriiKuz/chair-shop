@@ -1,0 +1,35 @@
+[
+  {
+    "number": 1,
+    "title": "Where are these chairs assembled?",
+    "textContent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n  Ea aliquid nam eum repudiandae molestias ipsum architecto laborum, \n  autem rem temporibus eos obcaecati dolorem, ut saepe possimus voluptatibus mollitia, quos suscipit.",
+    "list": [
+      "laudantium debitis dolore deleniti atque dolorem tenetur harum!",
+      "Officia unde, velit earum soluta et alias nobis!",
+      "labore non, beatae porro tempora quae, aliquam ad et accusamus",
+      "Cumque magni numquam voluptates."
+    ]
+  },
+  {
+    "number": 2,
+    "title": "How long i do i have to return my chair?",
+    "textContent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n  Ea aliquid nam eum repudiandae molestias ipsum architecto laborum, \n  autem rem temporibus eos obcaecati dolorem, ut saepe possimus voluptatibus mollitia, quos suscipit.",
+    "list": [
+      "laudantium debitis dolore deleniti atque dolorem tenetur harum!",
+      "Officia unde, velit earum soluta et alias nobis!",
+      "labore non, beatae porro tempora quae, aliquam ad et accusamus",
+      "Cumque magni numquam voluptates."
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Do you ship to countries outside the EU?",
+    "textContent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n  Ea aliquid nam eum repudiandae molestias ipsum architecto laborum, \n  autem rem temporibus eos obcaecati dolorem, ut saepe possimus voluptatibus mollitia, quos suscipit.",
+    "list": [
+      "laudantium debitis dolore deleniti atque dolorem tenetur harum!",
+      "Officia unde, velit earum soluta et alias nobis!",
+      "labore non, beatae porro tempora quae, aliquam ad et accusamus",
+      "Cumque magni numquam voluptates."
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "fullName": "Andrii Kuz",
+  "email": "andrykuz4556@gmail.com",
+  "phone": "+380687511647",
+  "where": "youtube",
+  "order": [
+    {
+      "img": "http://127.0.0.1:5500/img/chair-3.jpg",
+      "productName": "The Chair 4/2",
+      "price": 1450
+    },
+    {
+      "img": "http://127.0.0.1:5500/img/chair-2.jpg",
+      "productName": "The Worker Bee",
+      "price": 525
+    }
+  ]
+}

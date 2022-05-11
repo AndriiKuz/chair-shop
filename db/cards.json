@@ -1,0 +1,92 @@
+[
+  {
+    "imgCard": "img/chair-1.jpg",
+    "cardName": "The Laid Bac",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable for 4h",
+    "thirdLineDescription": "Vegan leather",
+    "fourthLineDescription": "Weighs 16 kg",
+    "price": "250"
+  },
+  {
+    "imgCard": "img/chair-2.jpg",
+    "cardName": "The Worker Bee",
+    "firstLineDescription": "Work",
+    "secondLineDescription": "Comfortable for 8h",
+    "thirdLineDescription": "Vegan leather",
+    "fourthLineDescription": "Weighs 22 kg",
+    "price": "525"
+  },
+  {
+    "imgCard": "img/chair-3.jpg",
+    "cardName": "The Chair 4/2",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable all day!",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 80 kg",
+    "price": "1450"
+  },
+  {
+    "imgCard": "img/chair-4.jpg",
+    "cardName": "Ekenaset",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable for 4h",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 10 kg",
+    "price": "249"
+  },
+  {
+    "imgCard": "img/chair-5.jpg",
+    "cardName": "Morabo",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable for 8h",
+    "thirdLineDescription": "Vegan leather",
+    "fourthLineDescription": "Weighs 28 kg",
+    "price": "699"
+  },
+  {
+    "imgCard": "img/chair-6.jpg",
+    "cardName": "Finnala",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable all day!",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 50 kg",
+    "price": "700"
+  },
+  {
+    "imgCard": "img/chair-7.jpg",
+    "cardName": "Vedbo",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable for 2h",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 7 kg",
+    "price": "249"
+  },
+  {
+    "imgCard": "img/chair-8.jpg",
+    "cardName": "Nolmyra",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable for 1h",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 5 kg",
+    "price": "125"
+  },
+  {
+    "imgCard": "img/chair-9.jpg",
+    "cardName": "Remsta",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable all day!",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 25 kg",
+    "price": "280"
+  },
+  {
+    "imgCard": "img/chair-10.jpg",
+    "cardName": "Bingsta",
+    "firstLineDescription": "Leisure and relaxing",
+    "secondLineDescription": "Comfortable for 3h",
+    "thirdLineDescription": "Organic cotton",
+    "fourthLineDescription": "Weighs 14 kg",
+    "price": "155"
+  }
+]
